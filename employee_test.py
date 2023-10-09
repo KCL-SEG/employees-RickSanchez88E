@@ -26,6 +26,7 @@ def test_jan():
     assert jan.get_pay() == 4410
     string = str(jan)
     regex  = 'Jan works on a contract of 150 hours at 25/hour and receives a commission for 3 contract\(s\) at 220/contract.\s+Their total pay is 4410.'
+
     assert re.match(regex, string)
 
 def test_robbie():
