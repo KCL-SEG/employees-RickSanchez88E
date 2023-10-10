@@ -102,25 +102,3 @@ robbie = BonusCommissionEmployee('Robbie', 2000, 1500)
 # Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600. Their total pay is 4200.
 ariel = ContractEmployee('Ariel', 120, 30)
 ariel.bonus_commission = 600
-print(str(ariel))
-
-
-
-
-
-
-# Calculate and print the pay for each employee
-# employees = [billie, charlie, renee, jan, robbie, ariel]
-# for employee in employees:
-#     if(employee.__class__.__name__ == "MonthlySalaryEmployee"): #Bille
-#         print(f"{employee} works on a monthly salary of {employee.monthly_salary}. Their total pay is {employee.get_pay()}.")
-#     if(employee.__class__.__name__=="ContractEmployee"): # Charlie
-#         print(f"{employee} works on a contract of {employee.hours_worked} at {employee.hourly_rate}/hour. Their total pay is {employee.get_pay()}.")
-#     if(employee.__class__.__name__=="CommissionEmployee" and employee.monthly_salary): #Renee
-#         print(f"{employee} works on a monthly salary of {employee.monthly_salary} and receives a commission for {employee.num_contracts} contract(s) at {employee.commission_rate}/contract. Their total pay is {employee.get_pay()}.")
-#     if(employee.__class__.__name__== "CommissionEmployee" and not employee.monthly_salary): #Jan
-#         print(f"{employee} works on a contract of {employee.hours_worked} at {employee.hours_worked}/hour and receives a commsion for {employee.num_contracts} contract(s) at {employee.commission_per_contract}/contract. Their total pay is {employee.get_pay()}")
-#     if(employee.__class__.__name__== "BonusCommissionEmployee" ): # Robbie
-#         print(f"{employee} works on a monthly salary of {employee.monthly_salary} and receives a bonus commission of {employee.bonus_commission}. Their total pay is {employee.get_pay()}.")
-"Ariel works on a contract of 120 hours at 30/hour. Their total pay is 4200."
-"Ariel works on a contract of 120 hours at 30/hour and receives a bonus commission of 600. Their total pay is 4200."
